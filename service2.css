@@ -1,0 +1,187 @@
+ header {
+  position: relative;
+  height: 100vh;
+  min-height: 25rem;
+  width: 101%;
+  overflow: hidden;
+}
+.image1{
+display: block; 
+margin-left: auto;
+ margin-right: auto;
+ width: 300px;
+ height: 100px;
+}
+
+.image2{
+display: block; 
+margin-left: auto;
+ margin-right: auto;
+ width: 1500px;
+ height:800px;
+ }
+
+.text h2{
+	padding-left: 340px;
+	font-family: alata;
+	font-size: 24px;
+}
+
+.text p{
+	padding-right: 340px;
+	padding-left: 340px;
+	font-size: 16px;
+}
+
+.text h3{
+	padding-left: 340px;
+	font-family: alata;
+	font-size: 21px;
+}
+
+.col h2{
+	font-family: alata;
+	font-size: 18px;
+}
+
+.button-b{
+	width:100%;
+	background:  black;
+  	border:  1.5px solid black;
+	color: white;
+	border-radius:  5px;
+	padding: 6.5px;
+}
+.button-b:hover{
+	 color: white;
+     background: #393634; 
+}
+.button-t{
+	background:  black;
+  	border:  1.5px solid black;
+	color: white;
+	border-radius:  5px;
+	padding: 6.5px;
+}
+.button-t:hover{
+	 color: white;
+     background: #393634; 
+}
+.footer {
+  height: 80%;
+  left: 0;
+  bottom: 0;
+  width: 101%;
+  background-color: black;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 10%;
+}
+.footer p{ 
+    display:inline;padding: 20px;color: grey;
+}
+.container-4{
+  overflow: hidden;
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-left: 41%;
+
+}
+.container-4 input#search{
+  width: 300px;
+  height: 50px;
+  background: #2b303b;
+  border: black;
+  font-size: 10pt;
+  float: left;
+  color: #fff;
+  padding-left: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+}
+.container-4 input#search::-webkit-input-placeholder {
+   color: #65737e;
+}
+ 
+.container-4 input#search:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;  
+}
+ 
+.container-4 input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;  
+}
+ 
+.container-4 input#search:-ms-input-placeholder {  
+   color: #65737e;  
+}
+
+.container-4 button.icon{
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+ 
+  border: none;
+  background: #232833;
+  height: 50px;
+  width: 50px;
+  color: #4f5b66;
+  opacity: 0;
+  font-size: 10pt;
+ 
+  -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+  -ms-transition: all .55s ease;
+  -o-transition: all .55s ease;
+  transition: all .55s ease;
+}
+.container-4:hover button.icon, .container-4:active button.icon, .container-4:focus button.icon{
+    outline: none;
+    opacity: 1;
+    margin-left: -50px;
+}
+ 
+.container-4:hover button.icon:hover{
+    background:grey;
+}
+.icon-bar a {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 16px;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  margin: 20px; 
+}
+
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+.google {
+  background: #dd4b39;
+  color: white;
+}
+.youtube {
+  background: #bb0000;
+  color: white;
+}
